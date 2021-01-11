@@ -1,10 +1,10 @@
 # Intro to Quantum Computing
 
-View `py-primer.ipynb` for an introduction to python, numpy, and matplotlib.
+View `Tutorial_py-primer.ipynb` for an introduction to python, numpy, and matplotlib.
 Installation instructions are below.
 
 After Setup use following commands to start up jupyter notebook.  
-`source activate qc (or "activate ac" for Windows)`  
+`source activate qc (or "activate qc" for Windows)`  
 `jupyter notebook`  
 
 ## Linux Setup
@@ -13,18 +13,18 @@ These instructions work best on Ubuntu machines (and it's highly encouaged to us
 
 Once Anaconda and the necessary packages are installed, and you can get jupyter up and running, all the coding should be completely agnostic to the operating system.
 
-1. Download the most recent Anaconda distribution (with python 3.x) from: https://www.anaconda.com/distribution/. Alternatively, on Ubuntu command line execute:  
-`wget https://repo.continuum.io/archive/Anaconda3-2019.10-Linux-x86_64.sh`  
+1. Download the most recent Anaconda distribution (with python 3.x) from: https://www.anaconda.com/products/individual#Downloads. Alternatively, on Ubuntu command line execute:  
+`wget https://repo.continuum.io/archive/Anaconda3-2020.11-Linux-x86_64.sh`  
 
 2. Install Anaconda distribution. On Ubuntu, run:  
-`sh Anaconda3-2019.10-Linux-x86_64.sh`  
+`sh Anaconda3-2020.11-Linux-x86_64.sh`  
 
 3. In the directory of your choice, clone this git repo:  
 `git clone https://github.com/ethanwyr/qc_intro`  
 
-4. In the cloned git repo, create a virtual conda environment with python 3.7 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing: 
+4. In the cloned git repo, create a virtual conda environment with python 3.8 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing: 
 * Note this will take a while to complete the installation   
-`conda create -n qc python=3.7 numpy matplotlib jupyter sympy`  
+`conda create -n qc python=3.8 numpy matplotlib jupyter sympy`  
 
 5. Activate your conda environment with the command:  
 `source activate qc`  
@@ -34,15 +34,15 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 
 7. Start a local jupyter server with the command: `jupyter notebook`. This should open the jupyter dashboard in your web browser. Alternatively, a link will be printed out in the terminal, which you can paste into your web browser to open the dashboard manually.
 
-8. From the jupyter dashboard open `py-primer.ipynb` and start executing cells (using Shift+Enter).
+8. From the jupyter dashboard open `Tutorial_py-primer.ipynb` and start executing cells (using Shift+Enter).
 
 ## Windows Setup
 
-These instructions work best on Windows machines. And here is a quick reference for Windows commands: https://www.thehackr.com/windows-cmd-cheat-sheet/
+These instructions work best on Windows machines. And here is a quick reference for Windows commands: http://www.cs.columbia.edu/~sedwards/classes/2015/1102-fall/Command%20Prompt%20Cheatsheet.pdf
 
 Once Anaconda and the necessary packages are installed, and you can get jupyter up and running, all the coding should be completely agnostic to the operating system.
 
-1. Download the most recent Anaconda distribution (with python 3.x) from: https://www.anaconda.com/distribution/ 
+1. Download the most recent Anaconda distribution (with python 3.x) from: https://www.anaconda.com/products/individual#Downloads
 
 2. Install Anaconda distribution by yourself. Or following this guide: https://docs.anaconda.com/anaconda/install/windows/
 
@@ -52,9 +52,9 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 Change Drive: `D:` or `C:`  
 Change directory tree: `cd D:\EE_421\qc_intro` or `cd "......\EE 421\qc_intro"`  
 
-5. In the cloned git repo, create a virtual conda environment with python 3.7 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing:
+5. In the cloned git repo, create a virtual conda environment with python 3.8 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing:
 * Note this will take a while to complete the installation   
-`conda create -n qc python=3.7 numpy matplotlib jupyter sympy`   
+`conda create -n qc python=3.8 numpy matplotlib jupyter sympy`   
 
 6. Activate your conda environment with the command:   
 `activate qc`  
@@ -64,7 +64,7 @@ Change directory tree: `cd D:\EE_421\qc_intro` or `cd "......\EE 421\qc_intro"`
 
 8. Start a local jupyter server with the command: `jupyter notebook`. This should open the jupyter dashboard in your web browser. Alternatively, a link will be printed out in the terminal, which you can paste into your web browser to open the dashboard manually.
 
-9. From the jupyter dashboard open `py-primer.ipynb` and start executing cells (using Shift+Enter).
+9. From the jupyter dashboard open `Tutorial_py-primer.ipynb` and start executing cells (using Shift+Enter).
 
 ## Contents
 
