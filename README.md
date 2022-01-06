@@ -22,9 +22,9 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 3. In the directory of your choice, clone this git repo:  
 `git clone https://github.com/ethanwyr/qc_intro`  
 
-4. In the cloned git repo, create a virtual conda environment with python 3.10 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing: 
+4. In the cloned git repo, create a virtual conda environment with python 3.9 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing: 
 * Note this will take a while to complete the installation   
-`conda create -n qc python=3.10 numpy matplotlib jupyter sympy`  
+`conda create -n qc python=3.9 numpy matplotlib jupyter sympy`  
 
 5. Activate your conda environment with the command:  
 `source activate qc`  
@@ -52,9 +52,9 @@ Once Anaconda and the necessary packages are installed, and you can get jupyter 
 Change Drive: `D:` or `C:`  
 Change directory tree: `cd D:\EE_421\qc_intro` or `cd "......\EE 421\qc_intro"`  
 
-5. In the cloned git repo, create a virtual conda environment with python 3.10 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing:
+5. In the cloned git repo, create a virtual conda environment with python 3.9 and some of the required packages (`numpy`, `matplotlib`, `jupyter`, and `sympy`) by executing:
 * Note this will take a while to complete the installation   
-`conda create -n qc python=3.10 numpy matplotlib jupyter sympy`   
+`conda create -n qc python=3.9 numpy matplotlib jupyter sympy`   
 
 6. Activate your conda environment with the command:   
 `activate qc`  
